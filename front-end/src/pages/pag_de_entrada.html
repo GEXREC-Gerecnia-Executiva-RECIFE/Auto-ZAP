@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCG - Central de Chamados da GEX-REC</title>
+    <title>CCG - Central de Chamados da GEX-REC - Login</title>
     <link rel="stylesheet" href="../css/pag_de_entrada/style.css">
 </head>
 <body>
-    
-    <h1>CENTRAL DE CHAMADOS DA GEX-REC</h1>
-    
-    <script src="../js/pag_de_entrada/script.js"></script>
+    <div class="login-container">
+        <header>
+            <h1>CENTRAL DE CHAMADOS DA GEX-REC</h1>
+        </header>
+        <main class="login-main">
+            <img src="../imagens/inss1.svg" alt="Logo do INSS" class="logo">
+            <h2>CCG</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <img src="../imagens/usuario.svg" alt="Ícone Usuário" class="icon">
+                    <input type="text" id="username" placeholder="Usuário" required>
+                </div>
+                <div class="input-group">
+                    <img src="../imagens/senha.svg" alt="Ícone da Senha" class="icon">
+                    <input type="password" id="password" placeholder="Senha" required>
+                </div>
+                    <button type="submit" class="login-button">Entrar</button>
+            </form>
+        </main>
+    </div>
+                    <script src="../js/pag_de_entrada/script.js"></script>
 </body>
 </html>
