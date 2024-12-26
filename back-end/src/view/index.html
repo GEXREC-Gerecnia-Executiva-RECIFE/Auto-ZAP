@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <select id="filterType">
+        <option value="">Todos</option>
+        <option value="Manutenção">Manutenção</option>
+        <option value="Troca de Senha">Troca de Senha</option>
+        <option value="Suporte">Suporte</option>
+        <option value="Instalação ou Atualização de Software">Instalação ou Atualização de Software</option>
+    </select>
+    <button id="applyFilter">Filtrar</button>
+   
+    <button id="reloadMessagesButton">Recarregar Mensagens</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Primeira Mensagem</th>
+                <th>Nome</th>
+                <th>Unidade</th>
+                <th>Tipo</th>
+                <th>Opção</th>
+                <th>Detalhe</th>
+                <th>Funções</th>
+            </tr>
+        </thead>
+        <tbody id="messagesTableBody">
+            <!-- As mensagens serão inseridas aqui -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
